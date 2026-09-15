@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f7fb;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+}
+
+
+.header-text p {
+    color: gray;
+}
+
+.header-img {
+    width: 320px;
+    height: 120px;
+}
+
+.header-img img {
+    width: 100%;
+    height: 100%;
+    
+}
+.cards {
+    display: flex;
+    gap: 15px;
+    margin: 20px;
+}
+.card {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+}
+
+.card p {
+    color: gray;
+}
+
+.rooms-section {
+    margin: 20px;
+}
+
+.rooms-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rooms-heading p {
+    color: blue;
+}
+
+
+.room-info {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.room-info input,
+.room-info select {
+    flex: 1;
+    height: 42px;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.room-info p {
+    margin: 0;
+    padding: 10px;
+    color: blue;
+}
+
+.room-cards {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.room-card {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.room-card img {
+    width: 100%;
+    height: 120px;
+    
+}
+
+.room-card button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.bookings-section {
+    margin: 20px;
+    background-color: white;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+}
+
+
+th,td{
+    padding: 10px;
+    text-align: left;
+}
+
+td{
+    background-color: #f4f7fb;
+}

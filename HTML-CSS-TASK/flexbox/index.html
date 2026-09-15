@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meeting Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- header  -->
+    <header class="heading">
+
+        <div class="header-text">
+            <h2>Good morning, John</h2>
+            <p>Find and book a meeting room for your next big idea.</p>
+        </div>
+
+        <div class="header-img">
+            <img src="images/header.png" alt="Meeting room">
+        </div>
+
+    </header>
+
+<!-- cards  -->
+    <section class="cards">
+
+        <div class="card">
+            <img src="images/card1.png" alt="Total rooms icon">
+
+            <div>
+                <h3>24</h3>
+                <p>Total Rooms</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/card2.png" alt="Available rooms icon">
+
+            <div>
+                <h3>18</h3>
+                <p>Available</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/card3.png" alt="Booked today icon">
+
+            <div>
+                <h3>6</h3>
+                <p>Booked Today</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/card4.png" alt="Total users icon">
+
+            <div>
+                <h3>124</h3>
+                <p>Total Users</p>
+            </div>
+        </div>
+
+    </section>
+
+<!-- rooms -->
+    <section class="rooms-section">
+
+        <div class="rooms-heading">
+            <h2>Meeting Rooms</h2>
+            <p>View all </p>
+        </div>
+
+
+        <div class="room-info">
+
+            <input type="text" placeholder="Search rooms...">
+
+            <select>
+                <option>Capacity</option>
+                <option>4 people</option>
+                <option>8 people</option>
+                <option>12 people</option>
+            </select>
+
+            <select>
+                <option>Location</option>
+                <option>Floor 1</option>
+                <option>Floor 2</option>
+                <option>Floor 3</option>
+            </select>
+
+            <select>
+                <option>Availability</option>
+                <option>Available</option>
+                <option>Occupied</option>
+            </select>
+
+            <p>Clear filters</p>
+
+        </div>
+
+        <div class="room-cards">
+
+            <div class="room-card">
+                <img src="images/roomA.png" alt="Conference Room A">
+
+                <h3>Conference Room A</h3>
+                <p> Floor 1, Building A</p>
+                <p>8 people</p>
+                <p>TV, Whiteboard</p>
+
+                <button>Book Now</button>
+            </div>
+
+
+            <div class="room-card">
+                <img src="images/roomB.png" alt="Innovation Room B">
+
+                <h3>Innovation Room B</h3>
+                <p> Floor 2, Building B</p>
+                <p> 12 people</p>
+                <p> TV, Video Conferencing</p>
+
+                <button>Book Now</button>
+            </div>
+
+
+            <div class="room-card">
+                <img src="images/roomC.png" alt="Focus Room C">
+
+                <h3>Focus Room C</h3>
+                <p> Floor 1, Building A</p>
+                <p> 4 people</p>
+                <p> Monitor, Whiteboard</p>
+
+                <button>Book Now</button>
+            </div>
+
+
+            <div class="room-card">
+                <img src="images/roomD.png" alt="Collaboration Room D">
+
+                <h3>Collaboration Room D</h3>
+                <p> Floor 3, Building C</p>
+                <p> 10 people</p>
+                <p> TV, Whiteboard</p>
+
+                <button>Book Now</button>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- booking -->
+    <section class="bookings-section">
+
+    <h2>Today's Bookings</h2>
+
+    <table>
+
+        <tr>
+            <th>Time</th>
+            <th>Meeting Title</th>
+            <th>Room</th>
+            <th>Organiser</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>10:00 AM - 11:00 AM</td>
+            <td>Product Meeting</td>
+            <td>Room A</td>
+            <td>Sarah Lee</td>
+            <td>Ongoing</td>
+        </tr>
+
+        <tr>
+            <td>11:30 AM - 12:30 PM</td>
+            <td>Design Review</td>
+            <td>Room B</td>
+            <td>Mike Chen</td>
+            <td>Upcoming</td>
+        </tr>
+
+        <tr>
+            <td>02:00 PM - 03:00 PM</td>
+            <td>Client Call</td>
+            <td>Room C</td>
+            <td>John Patel</td>
+            <td>Upcoming</td>
+        </tr>
+
+        <tr>
+            <td>04:00 PM - 05:00 PM</td>
+            <td>Team Sync</td>
+            <td>Room D</td>
+            <td>Emily Davis</td>
+            <td>Upcoming</td>
+        </tr>
+
+    </table>
+
+</section>
+
+</body>
+
+</html>

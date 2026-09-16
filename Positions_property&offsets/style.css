@@ -8,12 +8,9 @@ body {
 .header {
     position: sticky;
     top: 0;
-    z-index: 10;
-
     padding: 20px 50px;
     background: #6c63ff;
     color: white;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,7 +92,6 @@ main {
     position: fixed;
     right: 25px;
     bottom: 25px;
-
     padding: 12px 20px;
     border: none;
     border-radius: 20px;
@@ -126,7 +122,6 @@ main {
     height: 18px;
     background: #6c63ff;
     border-radius: 50%;
-
     offset-path: path("M 0 20 L 300 20");
     offset-distance: 75%;
     offset-rotate: auto;

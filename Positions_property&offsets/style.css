@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f7fb;
+    color: #25223a;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    padding: 20px 50px;
+    background: #6c63ff;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+.welcome {
+    position: static;
+    padding: 40px 0 25px;
+}
+
+.welcome p {
+    color: #777;
+}
+
+.dashboard {
+    display: flex;
+    gap: 20px;
+}
+
+.task-card,
+.notes-card {
+    flex: 1;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ddd;
+}
+
+.task-card {
+    position: relative;
+}
+
+.task-count {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.task-card p,
+.notes-card p,
+.project-card p {
+    color: #777;
+}
+
+.notes-card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #6c63ff;
+    color: white;
+}
+
+.projects {
+    margin: 50px 0;
+}
+
+.project-container {
+    display: flex;
+    gap: 20px;
+}
+
+.project-card {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+}
+
+.new-task {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #ff6584;
+    color: white;
+}
+
+.progress {
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+}
+
+.progress-track {
+    width: 320px;
+    height: 80px;
+    border-bottom: 3px solid #ddd;
+}
+
+.progress-track {
+    width: 300px;
+    height: 20px;
+    border-bottom: 3px solid #ddd;
+}
+
+.progress-dot {
+    width: 18px;
+    height: 18px;
+    background: #6c63ff;
+    border-radius: 50%;
+
+    offset-path: path("M 0 20 L 300 20");
+    offset-distance: 75%;
+    offset-rotate: auto;
+    offset-anchor: right;
+  
+}

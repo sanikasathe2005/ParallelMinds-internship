@@ -1,0 +1,42 @@
+positions
+
+1.relative-->
+Keeps the element in its normal position.
+It allows an absolute element inside it to use it as a reference point.
+By itself, it usually does not change the appearance.
+
+2.absolute-->
+Places an element exactly where you want inside a relative parent.
+Uses top, right, bottom, or left to set its position.
+
+3.sticky---> 
+The element behaves normally at first, but when you scroll to its specified position, it sticks there.
+position: sticky → tells it to become sticky
+top: 0 → tells it where to stick
+
+4.position: fixed
+Positions an element relative to the screen/viewport.
+It stays in the same place even when you scroll.
+top, right, bottom, left control its location.
+
+5.position: static
+Default position.
+Element stays in its normal place.
+top, right, bottom, and left don't work with it.
+
+***offsets**
+Offset = top, right, bottom, left used to control where a positioned element goes.
+1.offset-path → Defines the path an element follows.
+M 0 20 → start at 0px, 20px
+L 300 20 → move to 300px, 20px.
+
+2.offset-distance → Sets how far the element moves along the path.
+3.offset-rotate → Controls the element's direction while moving on the path
+
+4.offset-anchor->anchor point itself stays at the path position
+
+offset-anchor: left → left side stays on the path → element appears right.
+
+offset-anchor: right → right side stays on the path → element appears left.
+
+5.offset-position → Sets the starting position of an element on its path.

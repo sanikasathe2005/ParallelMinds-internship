@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Order Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Food Order Form</h1>
+
+    <form id="orderForm">
+
+        <label>Food Item</label>
+        <select id="food">
+            <option>Pizza</option>
+            <option>Burger</option>
+            <option>Pasta</option>
+            <option>Sandwich</option>
+        </select>
+
+        <label>Size</label>
+        <select id="size">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+        </select>
+
+        <label>Quantity</label>
+        <input type="number" id="quantity" min="1">
+
+        <button type="submit">Place Order</button>
+
+    </form>
+
+    <div id="orderSummary"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

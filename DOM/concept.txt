@@ -1,0 +1,9 @@
+document.getElementById("title")=>select element
+
+title.textContent =>change heading
+
+document.getElementsByClassName("task")=>selects all HTML elements that have a particular class name.
+
+querySelector() → selects the first element using a CSS selector.
+
+querySelectorAll()-> selects all elements that match a CSS selector.

@@ -8,6 +8,7 @@ let humidity = document.getElementById("humidity");
 let loading = document.getElementById("loading");
 let error = document.getElementById("error");
 let recentCities = document.getElementById("recentCities");
+let weatherIcon = document.getElementById("weatherIcon");
 
 let savedSearches = localStorage.getItem("recentSearches");
 let recentSearches = [];

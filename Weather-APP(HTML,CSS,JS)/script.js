@@ -9,7 +9,12 @@ let loading = document.getElementById("loading");
 let error = document.getElementById("error");
 let recentCities = document.getElementById("recentCities");
 
+let savedSearches = localStorage.getItem("recentSearches");
 let recentSearches = [];
+
+if (savedSearches) {
+    recentSearches = JSON.parse(savedSearches);
+}
 
 async function getWeather(city) {
 

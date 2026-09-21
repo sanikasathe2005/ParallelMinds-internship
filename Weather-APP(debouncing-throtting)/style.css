@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #eef5fb;
+}
+
+.container {
+    width: 500px;
+    min-height: 500px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.container > p {
+    text-align: center;
+    color: #6b7280;
+}
+
+.searchBox {
+    display: flex;
+    gap: 10px;
+    margin: 30px auto;
+    width: 400px;
+}
+
+.searchBox input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.searchBox button {
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.recent {
+    width: 400px;
+    margin: 30px auto;
+}
+
+.recent h3 {
+    color: #6b7280;
+    margin-bottom: 15px;
+}
+
+.recent-cities {
+    display: flex;
+    gap: 10px;
+   
+}
+
+.recent-cities button {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: #f4f7fb;
+    cursor: pointer;
+}
+
+.weather-card {
+    position: relative;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f8fbff;
+    border: 1px solid #dbe5f0;
+    border-radius: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.weather-card h2 {
+    color: #2563eb;
+    font-size: 26px;
+    margin: 5px 0 20px;
+}
+
+#temperature {
+    color: #2563eb;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#condition {
+    color: #6b7280;
+    font-size: 18px;
+}
+
+.weather-info {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.info-box {
+    flex: 1;
+    min-width: 0;
+    padding: 15px 10px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.info-box h3 {
+    color: #6b7280;
+    font-size: 13px;
+    margin: 0 0 8px;
+}
+
+.info-box p {
+    color: #2563eb;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#loading {
+    display: none;
+    color: #2563eb;
+    font-weight: bold;
+    text-align: center;
+}
+
+#error {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .searchBox,
+    .recent,
+    .weather-card {
+        width: 100%;
+    }
+
+    .searchBox {
+        flex-direction: column;
+    }
+
+    .weather-info {
+        flex-direction: column;
+    }
+}
+#weatherIcon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+}

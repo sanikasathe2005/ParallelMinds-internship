@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Ecommerce App</h1>
+
+        <div>
+            <button id="wishlistButton">
+                Wishlist (<span id="wishlistCount">0</span>)
+            </button>
+
+            <button id="cartButton">
+                Cart (<span id="cartCount">0</span>)
+            </button>
+        </div>
+    </header>
+
+    <div class="filter">
+
+        <input type="text" id="search" placeholder="Search Products">
+
+        <select id="category">
+            <option value="all">All Categories</option>
+        </select>
+
+        <select id="sort">
+            <option value="default">Sort Products</option>
+            <option value="price-low">Price: Low to High</option>
+            <option value="price-high">Price: High to Low</option>
+            <option value="rating-high">Rating: High to Low</option>
+        </select>
+
+    </div>
+
+    <div id="productList"></div>
+    <div id="productModal">
+    <div id="modalContent">
+        <button id="closeModal">X</button>
+        <img id="modalImage">
+        <h2 id="modalTitle"></h2>
+        <p id="modalCategory"></p>
+        <p id="modalPrice"></p>
+        <p id="modalRating"></p>
+        <p id="modalDescription"></p>
+    </div>
+</div>
+    <div class="pagination">
+
+        <button id="previous">Previous</button>
+        <span id="pageNumber">Page 1</span>
+        <button id="next">Next</button>
+
+    </div>
+    <div id="cartSection">
+
+        <h2>My Cart</h2>
+        <div id="cartList"></div>
+
+    </div>
+
+    <div id="checkout">
+        <h2>Checkout</h2>
+        <form id="checkoutForm">
+            <input type="text" id="name" placeholder="enter your name">
+            <input type="email" id="email" placeholder="enter your mail">
+            <input type="text" id="address" placeholder="enter address">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

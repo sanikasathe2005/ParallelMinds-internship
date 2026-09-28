@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background-color: #fff7ed;
+  font-family: Arial, sans-serif;
+}
+
+.page-container {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.product-container {
+  padding: 30px;
+  background-color: #eff3e9;
+  border-radius: 20px;
+  border: 1px solid #fed7aa;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.heading h4 {
+  color: #7c2d12;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-section {
+  padding: 22px;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.form-title {
+  color: #7c2d12;
+  margin-bottom: 15px;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.product-form .MuiButton-root {
+  padding: 10px;
+}
+
+.products-section {
+  padding: 5px;
+}
+
+.products-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.product-card {
+  border-radius: 12px;
+  background-color: white ;
+}
+
+.product-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.product-name {
+  color: #7c2d12;
+  font-weight: bold ;
+}
+
+.product-price {
+  color: #ea580c;
+  margin-top: 5px;
+}

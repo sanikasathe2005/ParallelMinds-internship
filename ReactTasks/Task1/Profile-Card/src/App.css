@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+.home {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px;
+  background: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 8px;
+  color:brown;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  color: #6b7280;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  padding: 25px;
+  background: white;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: rgb(147, 109, 109);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card h2 {
+  margin: 10px 0;
+  color: #1f2937;
+}
+
+.role {
+  color: brown;
+  font-weight: bold;
+}
+
+.email {
+  color: black;
+}
+
+.skills {
+  margin-top: 15px;
+  padding: 10px;
+  background: #fff7ed;
+  border-radius: 8px;
+  color:brown;
+}
